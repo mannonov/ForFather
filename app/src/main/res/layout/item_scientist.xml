@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:layout_marginVertical="6dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <ImageView
+
+        android:id="@+id/img_photo"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:src="@android:drawable/ic_delete"
+        android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_name_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Name (1990 - 2050)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="10"
+                android:text="dsadasfasfsafdfasdasfasadasdsadasfasdasfasdsafasdasfasdsdasfasdasfasdasfasfsafasfasfasfasffasfasffsafasfasfasfasfsafasdasfadsfsdasf" />
+
+            <Button
+                android:id="@+id/btn_more"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="batafsil" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

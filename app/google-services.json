@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955957612798",
+    "project_id": "forefather-a18bf",
+    "storage_bucket": "forefather-a18bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955957612798:android:00a9410653962390e155af",
+        "android_client_info": {
+          "package_name": "uz.najottalim.forefather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955957612798-2alpan8jnsuhsjrtenqrlan6qmr332v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5H7RkBLTFZCPBjggEpcILSyrDA1rLcyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955957612798-2alpan8jnsuhsjrtenqrlan6qmr332v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
